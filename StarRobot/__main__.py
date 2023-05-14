@@ -405,7 +405,7 @@ def Star_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="🎄𝐑𝐄𝐏𝐎🎄", 
-                            url="https://github.com/itz-star-boi/StarXRobot",
+                            url="https://github.com/LUCKY-KING-ROBOT/StarXRobot",
                         ),
                     ],
                     [
