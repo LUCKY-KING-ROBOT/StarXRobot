@@ -440,59 +440,59 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
                         
                 InlineKeyboardButton(
-                    text="🍁αԃɱιɳ🍁",
+                    text="『🍁 ᴀᴅᴍɪɴ 🍁』",
                     callback_data="Music_1",
                 ),
                 InlineKeyboardButton(
-                    text="🔺αυƭɦ🔺",
+                    text="『🔺 ᴀᴜᴛʜ 🔺』",
                     callback_data="Music_2",
                 ),
             
                 InlineKeyboardButton(
-                    text="♨️вℓσ¢к♨️",
+                    text="『♨️ ʙʟᴀᴄᴋ ♨️』",
                     callback_data="Music_3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="📣ɠ¢αʂƭ📣",
+                    text="『📣 ɢᴄᴀꜱᴛ 📣』",
                     callback_data="Music_4",
                 ),
                 InlineKeyboardButton(
-                    text="🚫ɠɓαɳ🚫",
+                    text="『🚫 ɢʙᴀɴ 🚫』",
                     callback_data="Music_5",
                 ),
                 InlineKeyboardButton(
-                    text="🍷ℓყɾเ¢ʂ🍷",
+                    text="『🍷 ʟyʀɪᴄꜱ 🍷』",
                     callback_data="Music_6",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🎙️քℓαყℓเʂƭ🎙️",
+                    text="『🎙️ ᴩʟᴀyʟɪꜱᴛ 🎙️』",
                     callback_data="Music_7",
                 ),
                 InlineKeyboardButton(
-                    text="🎸ѵσเ¢ε-¢ɦαƭ🎸",
+                    text="『🎸 ᴠᴀɪᴄᴇ-ᴄʜᴀᴛ 🎸』",
                     callback_data="Music_8",
                 ),
             ],
             [
            
                 InlineKeyboardButton(
-                    text="🕹️ρℓαყ🕹️",
+                    text="『🕹️ ᴩʟᴀy 🕹️』",
                     callback_data="Music_9",
                 ),
             
             
                 InlineKeyboardButton(
-                    text="🍸ʂ𝖚∂σ🍸",
+                    text="『🍸 ꜱᴜᴅᴏ 🍸』",
                     callback_data="Music_10",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="⚜️SƬΛᏒƬ⚜️",
+                    text="『⚜️ ꜱᴛᴀʀᴛ ⚜️』",
                     callback_data="Music_11",
                 ),
             ],
@@ -1105,7 +1105,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/8dea393ddf4fc2e339179.gif",
+                animation="https://telegra.ph/file/8d8d31fb1fc5bdf31328a.gif",
                 caption=f"""
 ㅤ🥀 ✨ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
