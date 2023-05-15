@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from StarRobot import OWNER_ID, dispatcher
 from StarRobot import pbot as client
 
-Star = "https://telegra.ph/file/26b5ac4684af8c68ebdce.jpg"
+Star = "https://te.legra.ph/file/0c07a4bd25195fb1f948c.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -20,7 +20,7 @@ async def repo(client, message):
 
 ╔═════ஜ۩۞۩ஜ════╗
 
- 🌹️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝐏𝐈𝐑𝐎](tg://user?id={OWNER_ID})🌹
+🇮🇳 ᴏᴡɴᴇʀ ʙy [ʟᴜᴄᴋy](tg://user?id={OWNER_ID})🌹
   
 ╚═════ஜ۩۞۩ஜ════╝
 
@@ -33,8 +33,8 @@ async def repo(client, message):
                         "•✨ᴏᴡɴᴇʀ✨",f"tg://user?id={OWNER_ID}"
                     ),
                     InlineKeyboardButton(
-                        "✨ʀᴇᴘᴏ✨",
-                        url="https://github.com/itz-star-boi/StarXRobot",
+                        "✨ɢʀᴏᴜᴩ✨",
+                        url="https://t.me/DXinfo143",
                     ),
                 ]
             ]
