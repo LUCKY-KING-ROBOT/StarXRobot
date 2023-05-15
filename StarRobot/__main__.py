@@ -102,15 +102,15 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀️‍🔥", callback_data="help_back"),
-        InlineKeyboardButton(text="✨ ᴍᴜsɪᴄ ✨", callback_data="Music_"),
+        InlineKeyboardButton(text="『🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀』" ", callback_data="help_back"),
+        InlineKeyboardButton(text="『✨ ᴍᴜsɪᴄ ✨』", callback_data="Music_"),
     ],
     [
-        InlineKeyboardButton(text="🌹sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ🌹", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="🥀ᴅᴇᴠᴇʟᴏᴩᴇʀ🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="『🦋sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ🦋』", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="『🌟ᴅᴇᴠᴇʟᴏᴩᴇʀ🌟』", url=f"tg://user?id={OWNER_ID}"),
     ],
     [
-        InlineKeyboardButton(text="🏡 sᴏᴜʀᴄᴇ 🏡 ", callback_data="star_"),
+        InlineKeyboardButton(text="『🏡 sᴏᴜʀᴄᴇ 🏡』", callback_data="star_"),
     ],
 ]
 
@@ -120,7 +120,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [💫ᴅᴇᴠᴇʟᴏᴩᴇ💫](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -401,11 +401,11 @@ def Star_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="📍𝐎𝐖𝐍𝐄𝐑📍", url=f"tg://user?id={OWNER_ID}"
+                            text="『📍 ᴏᴡɴᴇʀ 📍』", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="🎄𝐑𝐄𝐏𝐎🎄", 
-                            url="https://github.com/LUCKY-KING-ROBOT/StarXRobot",
+                            text="『🎄 ɢʀᴏᴜᴩ 🎄』", 
+                            url="https://t.me/DXinfo143",
                         ),
                     ],
                     [
@@ -1105,7 +1105,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/8d8d31fb1fc5bdf31328a.gif",
+                animation="https://telegra.ph/file/8d8d31fb1fc5bdf31328a.jpg",
                 caption=f"""
 ㅤ🥀 ✨ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
